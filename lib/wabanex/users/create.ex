@@ -1,5 +1,4 @@
 defmodule Wabanex.Users.Create do
-
   # alias Wabanex.User
   # alias Wabanex.Repo
   # or
