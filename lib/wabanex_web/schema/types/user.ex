@@ -6,6 +6,7 @@ defmodule WabanexWeb.Schema.Types.User do
     field :id, non_null(:uuid4)
     field :name, non_null(:string)
     field :email, non_null(:string)
+    field :trainings, list_of(:training)
     # doesnt have password because we dont want to return it
   end
 
